@@ -1,16 +1,60 @@
-# React + Vite
+🏥 Sunrise Clinix — Healthcare Platform
+A professional web platform built for Sunrise Clinix, designed to give a healthcare provider a clean, trustworthy digital presence. Built with a focus on clarity, accessibility, and a smooth user experience across all devices.
+Live Site: sunriseclinix.netlify.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
 
-Currently, two official plugins are available:
+Fully responsive design — mobile, tablet, and desktop
+Clean, professional UI suited for a healthcare brand
+Service/department showcase
+Appointment or contact flow
+Fast load times with optimized assets
+Deployed on Netlify with continuous delivery
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+🛠 Tech Stack
+TechUsageReact.jsComponent-based UIJavaScript (ES6+)Core logic & interactivityTailwind CSSStyling & responsive layoutNetlifyHosting & deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Getting Started
+bash# Clone the repo
+git clone https://github.com/fahadnajam1/sunrise-clinix.git
 
-## Expanding the ESLint configuration
+cd sunrise-clinix
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+Open http://localhost:5173 in your browser.
+
+📁 Project Structure
+sunrise-clinix/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── sections/         # Page sections (Hero, Services, About, Contact)
+│   ├── assets/           # Images & icons
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── tailwind.config.js
+└── vite.config.js
+
+🌍 Deployment
+Hosted on Netlify with auto-deploy from the main branch.
+To deploy your own fork:
+
+Push to GitHub
+Import the repo into Netlify
+Set build command: npm run build
+Set publish directory: dist
+Deploy
+
+
+👨‍💻 Built By
+Fahad Najam — Freelance Frontend Developer
+Portfolio · GitHub · LinkedIn
+
+📄 License
+Built for a real client. Shared here for portfolio purposes. Branding and content belong to Sunrise Clinix — please don't reuse without permission.
